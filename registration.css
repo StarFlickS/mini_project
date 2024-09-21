@@ -1,0 +1,154 @@
+*{
+    font-family: 'Itim', cursive;
+}
+body{
+    margin: 0px;
+    background-image: url('images/img_openHouse.jpg');
+}  
+
+.topnav {
+    display: flex;
+    justify-content: space-between; 
+    float: right;
+}
+
+#aID {
+    padding: 20px;
+}
+
+.topnav a{
+    color: #004aad;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+}
+
+.topnav a:hover {
+    color: #ff5757;
+    text-decoration-line: underline ; 
+    
+}
+
+.topnav  a:active {
+    color: rebeccapurple;
+}
+
+.color_button {
+    background-color: #ff5757 ;
+    color: black;
+    float: right;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+
+.menu { 
+        background-color: #eeeade; 
+        width: 100%;
+        height: 10%; 
+        display: flex;
+        justify-content: space-between; /* กระจายระยะห่างของลูก element */
+        align-items: center; /* จัดให้ vertical align ตรงกลาง */
+        
+}
+
+.img_container_BUicon{
+    width: 10%; 
+    height: 100%;
+    margin: 0px 30px;
+}
+
+.menu_container{
+    float: right;
+    text-decoration: none;
+    margin: 0px;
+    font-size: 20px;
+    
+}   
+
+.button_regis {
+    background-color: #ff5757;
+    border-radius: 30px;
+    border: solid 0px;
+    font-size: 20px;
+    color: white; 
+    padding: 20px;
+}
+
+.button_regis:hover {
+    background-color: #004aad;
+    color: white;
+}
+
+.container1_button_regis {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.regis_container {
+    background-color: #eeeade; 
+    margin: auto;
+    margin-top: 30px;
+    width: 75%;
+    height: 80%;
+    padding: 10px;
+    border-radius: 50px;
+     
+}
+
+h1{
+    font-size: 60px;
+    
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+.input_container {
+    margin: auto;
+    width: 80%;
+    
+    padding: 10px;
+}
+
+.submin_container {
+    margin: auto;
+    width: 20%;
+    height: 10%;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.button_submit{
+    background-color: #ff5757;
+    border-radius: 30px;
+    border: solid 0px;
+    font-size: 20px;
+    color: white; 
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 90%;
+}
+
+.button_submit:hover {
+    background-color: #004aad;
+    color: white;
+}
+
+input[type=submit] {
+    background-color: #ff5757;
+    border-radius: 30px;
+    border: solid 0px;
+    font-size: 20px;
+    color: white; 
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 90%;
+}
