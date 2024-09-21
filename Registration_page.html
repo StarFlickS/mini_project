@@ -2,45 +2,59 @@
     <head>
         <link rel="stylesheet" href="registration.css">
         <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
-       <div class="menu">
-            <div class="img_container_BUicon">
-                <a href="#"><img src="img/BU_icon.png" style="width: 100%; height: 100%;" alt="#"></a> <!--ไปหน้า homepage-->
+          <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="homepage.html">Open House BU 2024</a>
+            <button class="navbar-toggler-" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">เกี่ยวกับ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#schedule">ตารางงาน</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#workshops">กิจกรรม</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Registration_page.html">ลงทะเบียน</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactpage.html">ติดต่อเรา</a>
+                    </li>
+                </ul>
             </div>
-
-            <div class="menu_container">   
-                <div class="topnav">
-                    <a href="https://www.youtube.com/" id="aID">Homepage</a>
-                    <a href="https://www.youtube.com/" id="aID">About the Open House</a>
-                    <a href="https://www.youtube.com/" id="aID">Contact Us</a>
-                    <div class="container1_button_regis">
-                        <a href="Registration_page.html"><button class="button_regis">Registration</button></a>
-                    </div>
-                </div>
-            </div>
-       </div>
+        </div>
+       </nav>   
 
        <div class="regis_container">
-           <h1 style="text-align: center; color: #032b60;">BU OPEN HOUSE 2024</h1>
+           <h1 style="text-align: center; color: #032b60; margin-top: 50px;">BU OPEN HOUSE 2024</h1>
            
            <div class="input_container"> 
                 <form action="" method="post" name="contact-form">  
                     <label for="email"><h2 style="color: #032b60;">E-mail :</h2></label>
-                    <input type="text" placeholder="Enter E-mail" name="email" required>
+                    <input type="text" placeholder="e-mail" name="email" required>
 
-                    <label for="name"><h2 style="color: #032b60;">Name :</h2></label>
-                    <input type="text" placeholder="Enter name" name="name" required>
+                    <label for="name"><h2 style="color: #032b60;">ชื่อ-นามสกุล :</h2></label>
+                    <input type="text" placeholder="ชื่อ-นามสกุล" name="name" required>
 
-                    <label for="telephone"><h2 style="color: #032b60;">Telephone number :</h2></label>
-                    <input type="text" placeholder="Enter Telephone number" name="telephone" required>
+                    <label for="telephone"><h2 style="color: #032b60;">เบอร์โทรศัพท์มือถือ :</h2></label>
+                    <input type="text" placeholder="เบอร์โทรศัพท์มือถือ" name="telephone" required>
                     <div class="submin_container">
                         <!--<a href="Registration_page.html"><button class="button_submit">Submit</button></a>-->
-                       <input type="submit" value="submit" class="button_submit">    
+                       <input type="submit" value="ลงทะเบียน" class="button_submit">    
                     </div>
                 </form>
            </div>
        </div>
        <script src="regis_google_sheet.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
