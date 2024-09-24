@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Workshop</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .banner {
+            background-image: url('images/banner.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+
+        body{
+            background-color: white;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            color: black;
+        }
+
+        .Workshop-section {
+            padding: 30px ;
+            text-align: center;
+        }
+
+        .bold-text{
+            font-weight: bolder;
+            text-align: center;
+        }
+
+        .card {
+            background-color: rgba(0, 0, 0, 0.377);
+            border: 1px solid rgb(95, 95, 95);
+            padding: 20px;
+            width: calc(33.33% - 20px);
+            margin: 10px;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .my-images img {
+            width: 300px;
+            height: 250px;
+            margin: 20px auto;
+        }
+
+        .card-item {
+            margin-bottom: 20px;
+
+        }
+
+        .card-item h4 {
+            margin: 25px auto;
+            font-family: Arial, sans-serif;
+            font-size: 26px;
+            color: white;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        p {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            line-height: 1.5;
+            margin: 20px;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin-left: 5px;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="homepage.html">Open House BU 2024</a>
+            <div>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">เกี่ยวกับ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="schedule.html">ตารางกิจกรรม</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#workshops">กิจกรรม</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Registration_page.html">ลงทะเบียน</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactpage.html">ติดต่อเรา</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="partner.html">Partner</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Banner Section -->
+    <div class="banner"></div>
+    <h1 class="bold-text">Workshops and Activities</h1>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Workshop Section -->
+    <section id="WorkShop" class="Workshop-section">
+        <div class="card-container">
+            <!-- WorkShop 1 -->
+            <div class="card">
+                <div class="my-images">
+                <img src="images3/chinadesignX.jpg" alt="chinadesign X">
+                <div class="card-item">
+                    <h4>“CHINA DESIGN X” PROJECT</h4>
+                    <p>ร่วมกับบริษัทพันธมิตรหลัก Marriott International (Thailand) 
+                        มอบโจทย์จัดทำข้อเสนอการปรับปรุงและพัฒนาสินค้าบริการเพื่อลูกค้าชาวจีน 
+                        กลุ่ม High Spending กรณีศึกษา Bangkok Marriott the Surawongse”ภายใต้ธีม 
+                        “ Enhancing Premium Experiences for High-Spending Chinese Tourists”และรับการโค้ชจากผู้บริหารโรงแรม ผู้เชี่ยวชาญลูกค้าจีน บริษัท Millideas จำกัด / บริษัท Felix Travel and Management จำกัด 
+                        --- นักศึกษาหลักสูตรภาษาจีนธุรกิจ ร่วมกับ นักศึกษาการจัดการธุรกิจระหว่างประเทศ (มุ่งเน้นจีน)</p>
+                    <a href="Registration_page.html" class="button">ลงทะเบียน</a>
+                </div>
+                </div>
+            </div>
+            <!-- WorkShop 2 -->
+            <div class="card">
+                <div class="my-images">
+                <img src="images3/FinansiaHero.jpg" alt="Finansia Hero">
+                <div class="card-item">
+                    <h4>Finansia Hero</h4>
+                    <p>ภาควิชาการเงินร่วมกับบริษัทหลักทรัพย์ฟินันเซียจัดโครงการส่งเสริมการลงทุนในต่างประเทศ 
+                        และแจกโจทย์กรณีศึกษาทางด้านการเงินการลงทุนเพื่อเพิ่มศักยภาพในการแข่งขันด้านการวิเคราะห์
+                        โจทย์ทางการลงทุนในกองทุนรวมจากผู้เชี่ยวชาญ</p>
+                    <a href="Registration_page.html" class="button">ลงทะเบียน</a>
+                </div>
+                </div>
+            </div>
+            <!-- WorkShop 3 -->
+            <div class="card">
+                <div class="my-images">
+                <img src="images3/TheStockMaster.jpg" alt="The Stock Master">
+                <div class="card-item">
+                    <h4>The Stock Master</h4>
+                    <p>ภาควิชาการเงินร่วมกับธนาคารกรุงเทพ, บริษัทหลักทรัพย์บัวหลวง, 
+                        บริษัทหลักทรัพย์จัดการกองทุนรวมบัวหลวง 
+                        ส่งเสริมและสนับสนุนการให้ความรู้ในด้านการลงทุนให้กับนักศึกษา 
+                        เพื่อต่อยอดสู่การบริหารการเงิน และการมี Financial Literacy</p>
+                    <a href="Registration_page.html" class="button">ลงทะเบียน</a>
+                </div>
+                </div>
+            </div>
+            <!-- WorkShop 4 -->
+            <div class="card">
+                <div class="my-images">
+                <img src="images3/ESG.jpg" alt="ESG">
+                <div class="card-item">
+                    <h4>Time to Transform Vision 2050: ESG</h4>
+                    <p>ร่วมกับบริษัทพันธมิตรหลัก Marriott International (Thailand) 
+                        มอบโจทย์จัดทำข้อเสนอการปรับปรุงและพัฒนาสินค้าบริการเพื่อลูกค้าชาวจีน 
+                        กลุ่ม High Spending กรณีศึกษา Bangkok Marriott the Surawongse”ภายใต้ธีม 
+                        “ Enhancing Premium Experiences for High-Spending Chinese Tourists”</p>
+                    <a href="Registration_page.html" class="button">ลงทะเบียน</a>
+                </div>
+                </div>
+            </div>
+            <!-- WorkShop 5 -->
+            <div class="card">
+                <div class="my-images">
+                <img src="images3/Terminal.jpg" alt="Terminal">
+                <div class="card-item">
+                    <h4>Bloomberg Professional Terminal</h4>
+                    <p>ภาควิชาการเงินร่วมกับตลาดหลักทรัพย์แห่งประเทศไทย จัดการเรียนรู้การใช้ 
+                        Bloomberg Professional Services 
+                        ซึ่งเป็นเครื่องมือทางการเงินที่นักลงทุนระดับนานาชาติใช้ในการวิเคราะห์การลงทุนแบบ 
+                        Realtime Data Analytics</p>
+                    <a href="Registration_page.html" class="button">ลงทะเบียน</a>
+                </div>
+                </div>
+            </div>
+            <!-- WorkShop 6 -->
+            <div class="card">
+                <div class="my-images">
+                <img src="images3/FIP.jpg" alt="FIP">
+                <div class="card-item">
+                    <h4>FIP Professional Talk & Workshop</h4>
+                    <p>โดยบริษัท เมืองไทยประกันชีวิต จำกัด มาบรรยายถึงบทบาทของบริษัทประกันชีวิต 
+                        ผลิตภัณฑ์ทางประกัน การวางแผนประกันชีวิต 
+                        และเปิดโอกาสให้นักศึกษาได้แลกเปลี่ยนเรียนรู้กับผู้ทรงคุณวุฒิในสายอาชีพโดยตรง</p>
+                    <a href="Registration_page.html" class="button">ลงทะเบียน</a>
+                </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section> 
+
+
+
+</body>                    
+</html>
